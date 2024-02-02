@@ -3,21 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Online Age Calculator</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
 </head>
 <body>
     <div class="container">
         <h1 class="title">Online <span>Age Calculator</span></h1>
         
-        <div class="input-container">
-            <input type="date" class="date">
-            <button class="submit-btn">Calculate</button>
-        </div>
+        <div class="section">
+            <div class="input-container">
+                <input type="date" class="date" id="date">
+                <button class="submit-btn" id="btn">Calculate</button>
+            </div>
+            <div class="text">
+            </div>
+        </div> 
     </div>
     <script type="text/javascript" src="script.js"></script>
 </body>
