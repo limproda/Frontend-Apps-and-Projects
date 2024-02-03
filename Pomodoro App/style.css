@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #ec502d;
+}
+
+body {
+    height: 100vh;
+}
+
+.root {
+    height: 100vh;
+    min-height: 575px;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+}
+
+.options {
+    display: flex;
+    gap: 5rem;
+}
+
+button {
+    border: none;
+    transition: 0.5s ease;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+
+.active {
+    border-bottom: 1px solid currentColor;    
+}
+
+.circle {
+    width: 250px;
+    height: 250px;
+    border: 10px solid #882a15e0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 5px #1d0904e0;
+}
+
+.timer {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 58px;
+    background: none;
+}
+
+.control-buttons-container {
+    display: flex;
+    gap: 1rem;
+}
+.control-buttons {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
+.play {
+    background-image: url("images/play-freepik.png");
+}
+
+.reset {
+    background-image: url("images/reset-freepik.png");
+}
+
+.pause {
+    background-image: url("images/pause.png");
+}
