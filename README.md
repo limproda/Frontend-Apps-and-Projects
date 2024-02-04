@@ -1,6 +1,6 @@
-# MY COLLECTION OF HTML, CSS AND JS PROJECTS
+# MY COLLECTION OF HTML, CSS AND JS APPS & PROJECTS
 
-In this repository, you'll discover a diverse collection of FrontEnd Projects using HTML, CSS AND JS. Any other technology may be used, check information of each case to make sure.
+In this repository, you will discover a diverse collection of FrontEnd Projects using HTML, CSS AND JS. Any other technology may be used, check information of each case to make sure.
 
 
 ## Things TO-DO App
