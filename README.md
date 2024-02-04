@@ -6,7 +6,9 @@ In this repository, you'll discover a diverse collection of FrontEnd Projects us
 ## Things TO-DO App
 
 - Very simple To-Do App. You can add and delete tasks, and the information is going to be saved on your browser. I used Flexbox to distribute the elements on the screen and mediaqueries to change the behaviour based on the screen size.
-![](https://github.com/limproda/HTML-CSS-JS/blob/main/To%20Do%20applications/To-Do%20App%20V.2/TO-DO%20Demo.gif)
+<p align="center" style="width: 630px;">
+  <img src="(https://github.com/limproda/HTML-CSS-JS/blob/main/To%20Do%20applications/To-Do%20App%20V.2/TO-DO%20Demo.gif)" />
+</p>
 
 
 ## Programming Languages Used
