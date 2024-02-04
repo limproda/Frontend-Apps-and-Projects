@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pomodoro App</title>
-    <link href="style.css" rel="stylesheet">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <div class="root">
         <h1 class="title">Pomodoro Timer</h1>
         <div class="options">
-            <button class="work active">Work</button>
-            <button class="break">Break</button>
+            <button data-mode="work" class="work active">Work</button>
+            <button data-mode="break" class="break">Break</button>
         </div>
         <div class="circle">
-            <p class="timer">25:00</p>
+            <div class="timer">25:00</div>
         </div>
-        <div class="control-buttons-container">
-            <div class="control-buttons play"></div>
+        <div class="control-button-container">
+            <div class="control-button play"></div>
         </div>
     </div>
     <script type="text/javascript" src="script.js"></script>

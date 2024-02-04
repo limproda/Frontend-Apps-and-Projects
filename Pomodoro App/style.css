@@ -1,11 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-    background: #ec502d;
+    box-sizing: border-box;
 }
 
 body {
     height: 100vh;
+    background: #ec502d;
 }
 
 .root {
@@ -18,6 +19,7 @@ body {
     justify-content: center;
     gap: 3rem;
 }
+
 .title {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
@@ -38,16 +40,16 @@ button {
     font-size: 24px;
     font-weight: 300;
     color: white;
+    background: none;
+    cursor: pointer;
 }
 
 button:hover {
-    cursor: pointer;
     transform: translateY(-5px);
 }
 
-
 .active {
-    border-bottom: 1px solid currentColor;    
+    border-bottom: 1px solid currentColor;
 }
 
 .circle {
@@ -69,24 +71,22 @@ button:hover {
     background: none;
 }
 
-.control-buttons-container {
+.control-button-container {
     display: flex;
     gap: 1rem;
 }
-.control-buttons {
+
+.control-button {
     width: 20px;
     height: 20px;
     background-repeat: no-repeat;
     background-size: 20px 20px;
 }
-.play {
-    background-image: url("images/play-freepik.png");
-}
 
-.reset {
-    background-image: url("images/reset-freepik.png");
+.play {
+    background-image: url("src/play-freepik.png");
 }
 
 .pause {
-    background-image: url("images/pause.png");
+    background-image: url("src/pause.png");
 }
