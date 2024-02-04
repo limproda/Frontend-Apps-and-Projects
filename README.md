@@ -10,6 +10,12 @@ In this repository, you'll discover a diverse collection of FrontEnd Projects us
   <img src="https://github.com/limproda/HTML-CSS-JS/blob/main/To%20Do%20applications/To-Do%20App%20V.2/TO-DO%20Demo.gif" style="width: 400px;"/>
 </p>
 
+## Online Age Calculator
+
+- Age Calculator App: This application enables you to determine your age by inputting your birth year. It not only provides your precise age in years, months, and days but also presents the duration of your existence in terms of weeks, days, hours, and minutes.
+<p align="center">
+  <img src="https://github.com/limproda/HTML-CSS-JS/blob/main/Age%20Calculator/Age%20Calculator%20Demo.gif" style="width: 400px;"/>
+</p>
 
 ## Programming Languages Used
 
