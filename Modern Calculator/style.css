@@ -45,19 +45,30 @@ body {
     align-items: center;
     background-color: #5E5E7A;
     border-radius: 10px;
-    box-shadow: 1px 1px 5px #292947;
 }
 
-.numbers{
+.button:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+    background-color: #48485e;
+}
+
+.numbers {
     background: white;
     color: #5E5E7A;
     font-weight: 300;
 
 }
+
+.numbers:hover {
+    background: rgb(251, 251, 251);
+}
+
 #decimal {
     background: white;
     color: #5E5E7A;
 }
+
 #equal {
     grid-column: 4;
     grid-row: 5 / 7;
